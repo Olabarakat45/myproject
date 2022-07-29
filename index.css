@@ -1,0 +1,134 @@
+:root{
+    --primary-color: black;
+}
+
+body{
+    background: var(--primary-color);
+}
+
+.navbar{
+    background: white;
+    color: black;
+    height: 5em;
+    border-bottom: gold solid .2em;
+    
+}
+
+.name{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gold;
+    padding: 2em;
+    padding-top: 3em;
+    
+}
+
+nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: bold;
+  float: right;
+}
+ 
+.header a{
+    text-decoration: none;
+    color: black;  
+    margin: 0em;
+    padding: 0em;
+    
+}
+
+li{
+    list-style-type: none;
+    font-weight: bold;
+    display: inline;
+    padding: 0em 2em 0em 2em;
+  
+}
+
+.header{
+    margin-top: 2em;
+    float: left;
+}
+
+.right-view{
+    text-align: right;
+    padding: 1em;
+}
+
+h1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 2em;
+}
+
+.dev{
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: bold;
+    margin-right: 3.2em;
+}
+
+.sens{
+    color: grey;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-right: 4.3em;
+    font-weight: .1em;
+}
+
+.right-view{
+     background-image: url(adisa.jpg);
+     background-repeat: no-repeat; 
+     background-position: top center; 
+     padding-top: 2em;
+     
+}
+
+.images{
+    margin-bottom: 2em;
+    padding: 2em;
+    
+}
+.facebook{
+    display: block;
+    padding-bottom: 2em;
+}
+.twitter{
+    display: block;
+    
+}
+.whatsapp{
+    display: block;
+    padding-top: 2em;
+
+}
+
+.images p{
+    color: white;
+    display: flex;
+    font-size: .9em;
+    font-family: cursive;
+    padding-left: .2em ;
+}
+
+.about{
+    color: white;
+    background: gold;
+    width: 25em;
+    height: 15em;
+    border-radius: 1em;
+    margin-left: 5em;
+    padding-left: 1em;
+    padding-top: 1em;
+    margin-top: 2em;
+    font-size:1.5em;
+    font-weight: bold;
+}
+
