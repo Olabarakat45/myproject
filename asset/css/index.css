@@ -59,7 +59,7 @@ nav a:hover {
 /* End of page header styling */
 
 
-/* home page css  styling */
+
 
 /* left side styling */
 .left-view {
@@ -129,16 +129,22 @@ nav a:hover {
 
 
 .about{
-    color: white;
-    background: gold;
-    width: 25em;
-    height: 15em;
+
     border-radius: 1em;
-    margin-left: 5em;
-    padding-left: 1em;
-    padding-top: 1em;
-    margin-top: 2em;
+
     font-size:1.5em;
-    font-weight: bold;
+  
 }
 
+.about-box {
+    width: 50%;
+    padding: 5%;
+    margin: 5% auto;
+    border-radius: 16px;
+    background-color: gold;
+
+}
+.about-box p {
+    text-align: justify;
+
+}
