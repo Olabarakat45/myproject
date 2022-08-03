@@ -112,7 +112,7 @@ nav a:hover {
 .handles {
     width: 50%;
     display: flex;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 
 .handles p{
@@ -127,7 +127,7 @@ nav a:hover {
 }
 
 
-
+/* About page styling */
 .about{
 
     border-radius: 1em;
@@ -148,3 +148,55 @@ nav a:hover {
     text-align: justify;
 
 }
+/* End of about page styling */
+
+
+/* contact page design */
+
+.contact-box {
+    width: 80%;
+    padding: 5%;
+    margin: 5% auto;
+    border-radius: 16px;
+    box-shadow: 0px 0px 4px gold;
+
+}
+
+.contact-box h1 {
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.contact-box form {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.contact-box form input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.contact-box form textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.contact-box form .mes-btn{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: gold;
+    outline-style: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
